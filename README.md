@@ -1,1 +1,1 @@
-# es_ci
+# Simple project using nodeJS, standardJS and CircleCI
