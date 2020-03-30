@@ -20,4 +20,9 @@ describe('Calculator Test', () => {
     const [firstInput, secondInput, output] = [5, 5, 1]
     expect(Calculator.division(firstInput, secondInput)).toEqual(output)
   })
+
+  it('Average method', () => {
+    const [input, output] = [[5, 7], 6]
+    expect(Calculator.average(input)).toEqual(output)
+  })
 })
