@@ -15,14 +15,14 @@ class Calculator {
     return x / y
   }
 
-  static average (args){
-    let total = 0;
-    
+  static average (args) {
+    let total = 0
+
     args.forEach(element => {
       total += element
-    });
+    })
 
-    return total/args.length
+    return total / args.length
   }
 }
 
