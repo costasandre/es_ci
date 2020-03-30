@@ -14,6 +14,16 @@ class Calculator {
   static division (x, y) {
     return x / y
   }
+
+  static average (args){
+    let total = 0;
+    
+    args.forEach(element => {
+      total += element
+    });
+
+    return total/args.length
+  }
 }
 
 module.exports = { Calculator: Calculator }
