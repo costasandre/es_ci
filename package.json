@@ -1,0 +1,21 @@
+{
+  "name": "es_ci",
+  "version": "1.0.0",
+  "description": "Simple CicleCI usage with ecmascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && jest"
+  },
+  "keywords": [
+    "CI",
+    "ecmascript"
+  ],
+  "author": "Andre Costa",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^25.2.4"
+  },
+  "standard": {
+    "env": [ "jest" ]
+  }
+}
